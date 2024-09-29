@@ -35,8 +35,8 @@
 #include "ci_lab_msgids.h"
 #endif
 
-#ifdef HAVE_SAMPLE_APP
-#include "sample_app_msgids.h"
+#ifdef HAVE_BLINKER_APP
+#include "blinker_app_msgids.h"
 #endif
 
 #ifdef HAVE_HS
@@ -80,8 +80,8 @@ TO_LAB_Subs_t TO_LAB_Subs = {.Subs = {/* CFS App Subscriptions */
 #ifdef HAVE_CI_LAB
                                       {CFE_SB_MSGID_WRAP_VALUE(CI_LAB_HK_TLM_MID), {0, 0}, 4},
 #endif
-#ifdef HAVE_SAMPLE_APP
-                                      {CFE_SB_MSGID_WRAP_VALUE(SAMPLE_APP_HK_TLM_MID), {0, 0}, 4},
+#ifdef HAVE_BLINKER_APP
+                                      {CFE_SB_MSGID_WRAP_VALUE(BLINKER_APP_HK_TLM_MID), {0, 0}, 4},
 #endif
 #ifdef HAVE_HS
                                       {CFE_SB_MSGID_WRAP_VALUE(HS_HK_TLM_MID), {0, 0}, 4},
